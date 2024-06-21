@@ -1,0 +1,51 @@
+Scene: Unnamed
+Entities:
+  - Entity: Main Camera
+    Transform:
+      Translation:
+        Position: [960, 500, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      Children: []
+    Camera2D:
+      IsMain: true
+  - Entity: Circle
+    Transform:
+      Translation:
+        Position: [1521.44666, 789.978821, 0]
+        Rotation: [0, 0, 0]
+        Scale: [100, 100, 0]
+      Children: [Player]
+    CircleRenderer:
+      {}
+    Renderer:
+      Material:
+        Color: [124, 213, 246, 255]
+    PhysicsBody2D:
+      Body Type: 2
+      Density: 0.800000012
+      Friction: 0.300000012
+      Restitution: 0.600000024
+      Rotation Fixed: false
+    Platformer:
+      {}
+  - Entity: Player
+    Transform:
+      Translation:
+        Position: [-328, -22, 0]
+        Rotation: [0, 0, 0]
+        Scale: [70, 70, 0]
+      Children: []
+    SpriteRenderer:
+      SpritePath: assets/test.png
+    Renderer:
+      Material:
+        Color: [186, 139, 139, 255]
+    PhysicsBody2D:
+      Body Type: 0
+      Density: 1
+      Friction: 2
+      Restitution: 0
+      Rotation Fixed: true
+    MouseController:
+      {}
