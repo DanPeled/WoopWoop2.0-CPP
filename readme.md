@@ -28,5 +28,5 @@ there are 2 make configurations: `debug` and `release`:
 - Highly improved performance (from around 200fps to around 700fps on an empty scene).
 - New scene system
 - Animation system
-- Less generic typing (mostly due to how C++ works)
+- Save & load system
 - More advanced editor
