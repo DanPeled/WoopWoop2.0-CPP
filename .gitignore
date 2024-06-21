@@ -13,25 +13,25 @@
 *.pch
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+build/*.so
+build/*.dylib
+build/*.dll
 
 # Fortran module files
 *.mod
 *.smod
 
 # Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+build/*.lai
+build/*.la
+build/*.a
+build/*.lib
 
 # Executables
-*.exe
-*.out
-*.app
-imgui.ini
+build/*.exe
+build/*.out
+build/*.app
+build/imgui.ini
 # not sure what the debug file is, it generated it for me each time
 debug
 build/logs.log
