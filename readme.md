@@ -15,7 +15,7 @@ there are 2 make configurations: `debug` and `release`:
 - `release`: Will not include the editor code and will only include the neccessary stuff for your game.
 
 ## Dependencies
-- ImGui (included)
+- Dear ImGui (included)
 - Box2D (included)
 - Angelscript (included)
 - SFML
@@ -24,9 +24,9 @@ there are 2 make configurations: `debug` and `release`:
 
 # Changes over the C# version:
 - Uses [SFML](https://www.sfml-dev.org/) for rendering.
-- [ImGui](https://github.com/ocornut/imgui) integration.
-- Highly improved performance (from around 200fps to around 5000fps on an empty scene).
+- [Dear ImGui](https://github.com/ocornut/imgui) integration.
+- Highly improved performance (from around 200fps to around 700fps on an empty scene).
 - New scene system
 - Animation system
-- Less generic typing (mostly due to how C++ works)
+- Save & load system
 - More advanced editor
